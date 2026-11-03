@@ -1,6 +1,6 @@
 # Dorsal and Ventral White Matter Correlates of Word-Finding Difficulty in Neurologically Intact Adults
 
-`analysis.py` computes age-adjusted Spearman partial correlations between word-finding difficulty and FA, MD, RD and AD in ten language tracts (one Benjamini–Hochberg correction across all 40 tests) and grey matter volume in 28 language regions, together with the age correlations, all 40 tract tests with added covariates and with naming response time as a covariate, and robustness checks of the significant tract results (naming response time as the outcome, permutation, winsorized and trimmed outcome). It writes the aggregate statistics (n, ρ, p, FDR q) to one CSV.
+`analysis.py` reproduces the statistical results reported in the manuscript and writes them to a CSV.
 
 ## Data availability
 
